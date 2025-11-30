@@ -41,7 +41,7 @@ book-haven/
 ## ⚙️ Getting Started
 
 1. **Clone the repository**
-- git clone https://github.com/<your-username>/book-haven.git
+- git clone https://github.com/kananjn45/book-haven.git
 - cd book-haven
 
 2. **Open in browser**
