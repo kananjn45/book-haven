@@ -85,7 +85,7 @@ You can easily change:
 
 ## 🤝 Contributing
 
-Feel free to fork this repo and modify it for your own learning or portfolio. Suggestions and pull requests are welcome. [web:48]
+Feel free to fork this repo and modify it for your own learning or portfolio. Suggestions and pull requests are welcome. 
 
 ## 📄 License
 
