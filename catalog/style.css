@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(to right, #00362c, #000000);
+    color: white;
+}
+.header img{
+    vertical-align: middle;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+img{
+    vertical-align: middle;
+    margin: 5px;
+}
+.header{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px 20px 20px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color:#F5C857 ;
+}
+a{
+    font-weight: bold;
+    transition: all 0.3s;
+}
+.nav-links{
+    display: flex;
+    gap: 60px;
+    font-size: 20px;
+}
+.nav-links a{
+    transition: color 0.3s;
+}
+i.cart{
+    cursor: pointer;
+}
+i{
+    font-size: 24px;
+}
+i.nav-links:hover{
+    color:#F5C857 ;
+}
+.hero-section{
+    text-align: center;
+    padding: 100px 20px 70px;
+}
+.hero-section h2{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.hero-section p{
+    font-size: 24px;
+    color: #D3D3D3;
+}
+.hero-section::after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 4px;
+    background-color: #F5C857;
+    margin: 20px auto 0px auto;
+}
+.filter-search{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.filter-search select, .filter-search input{
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+.filter-search select{
+    margin-right: 10px;
+}
+.filter-search input{
+    width: 300px;
+} 
+.book-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 3fr));
+  gap: 20px;
+  padding: 15px 20px 40px 20px;
+}
+
+.book-card{
+  background-color: #5e5e5e;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  padding: 15px;
+}
+
+.book-card img{
+  width: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.book-card:hover{
+  transform: translateY(-5px);
+  background-color: #F5C857;
+  color: black;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+  .add-to-cart-btn{
+    background: #000000;
+    color: white;
+  }
+}
+.add-to-cart-btn{
+  background: #F5C857;
+  border: none;
+  color: black;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border-radius: 999px;
+  padding: 8px 16px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.add-to-cart-btn:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 5px 12px rgba(0,0,0,0.35);
+}
+
+.add-to-cart-btn:active{
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+

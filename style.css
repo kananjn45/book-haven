@@ -8,6 +8,11 @@ body{
     background: linear-gradient(to right, #00362c, #000000);
     color: white;
 }
+.header img{
+    vertical-align: middle;
+    margin-right: 10px;
+    border-radius: 50%;
+}
 img{
     vertical-align: middle;
     margin: 5px;
@@ -43,9 +48,11 @@ a{
 .nav-links a{
     transition: color 0.3s;
 }
+i.cart{
+    cursor: pointer;
+}
 i{
     font-size: 24px;
-    cursor: pointer;
 }
 i:hover{
     color:#F5C857 ;
@@ -70,6 +77,18 @@ i:hover{
     background-color: #F5C857;
     margin: 20px auto 0px auto;
 }
+.filter-section{
+    text-align: center;
+    padding: 30px 20px;
+}
+.filter-section select{
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: none;
+    background-color: #444444;
+    color: white;
+}
 .featured-books{
     text-align: center;
     padding: 50px 20px;
@@ -90,7 +109,7 @@ i:hover{
     margin-bottom: 30px;
     color: white;
     border-radius: 8px;
-    width: 400px;
+    width: 350px;
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
 }
 .book-item h3{
@@ -102,7 +121,7 @@ i:hover{
     margin-bottom: 15px;
 }
 .book-item:hover{
-    background-color:burlywood;
+    background-color:#F5C857;
     color: black;
     transform: scale(1.05);
     transition: all 0.3s;
@@ -115,4 +134,32 @@ i:hover{
     border: none;
     border-radius: 4px;
     cursor: pointer;
+}
+.view-more button:hover{
+    background-color:#F5C857 ;
+    color: black;
+}
+.footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #222222;
+    color: #F5C857;
+    margin-top: 40px;
+    line-height: 1.6;
+}
+.footer a{;
+    font-weight: normal;
+    color: #F5C857; 
+}
+.footer a:hover{
+    color: white;
+}
+.footer p{
+    margin: 5px 50px;
+}
+.footer .social-icons{
+    margin-top: 10px;
+}
+html{
+    scroll-behavior: smooth;
 }
