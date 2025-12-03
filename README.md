@@ -1,6 +1,6 @@
 # Book‑Haven 📚
 
-Book‑Haven is a fictional online bookstore front‑end built with HTML, CSS, JavaScript, and Bootstrap. It focuses on a clean UI, responsive design, and basic catalogue + cart behaviour on the client side. [web:46]
+Book‑Haven is a fictional online bookstore front‑end built with HTML, CSS, JavaScript, and Bootstrap. It focuses on a clean UI, responsive design, and basic catalogue + cart behaviour on the client side.
 
 ## ✨ Features
 
